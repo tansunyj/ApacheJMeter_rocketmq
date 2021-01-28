@@ -1,21 +1,21 @@
 # ApacheJMeter_rocketmq
 
 #### Description
-jmeter rocketmq插件
-
+jmeter rocketmq plugin
+the plugin support send messages to serveral topics in one request
 
 #### Software Architecture
 Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
+1.  the plugin need rocketmq-client、rocketmq-common、rocketmq-logging、rocketmq-remoting、netty-all,then copy these file to $JMETER_HOME/lib directory
+2.  copy the plugin from target/ directory , then paste it to $JMETER_HOME/lib/ext/ directory
 3.  xxxx
 
 #### Instructions
 
-1.  xxxx
+1.  see rocketmq.jmx in the project
 2.  xxxx
 3.  xxxx
 
