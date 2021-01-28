@@ -2,23 +2,24 @@
 
 #### 介绍
 jmeter rocketmq插件
-
+网上很多插件采用AbstractJavaSamplerClient等实现，局限性比较大，特地开发此插件以便方便测试工作
 
 #### 软件架构
 软件架构说明
-
+  1. 插件中jmeter core采用v5.1.1版本;
+  2. 插件中rocketmq采用v4.2.0版本；
 
 #### 安装教程
+使用此插件需按如下步骤进行
+1.  需下载rocketmq-client、rocketmq-common、rocketmq-logging、rocketmq-remoting、netty-all包，并放到$JMETER_HOME/lib下
+2.  项目为maven工程，打包后插件需放到$JMETER_HOME/lib/ext下
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  添加配置元件Rocketmq Connection Configuration，设定rocketmq相关链接参数等，GUI界面有提示；
+2.  添加取样器Rocketmq Sampler；
+
 
 #### 参与贡献
 

@@ -1,0 +1,5 @@
+org\apache\rocketmq\sampler\RocketmqSamplerBeanInfo.class
+org\apache\rocketmq\config\RocketmqElement.class
+org\apache\rocketmq\utils\RocketMQUtils.class
+org\apache\rocketmq\config\RocketmqElementBeanInfo.class
+org\apache\rocketmq\sampler\RocketmqSampler.class
